@@ -1,0 +1,6 @@
+Set up postgresql
+brew update
+brew install postgresql
+#in bash profile
+alias startpdb='pg_ctl -D /usr/local/var/postgres start'
+/usr/local/opt/postgresql/bin/createuser -s postgres
